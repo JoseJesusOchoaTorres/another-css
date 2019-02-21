@@ -1,0 +1,1943 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15 !important;
+    /* 1 */
+    -webkit-text-size-adjust: 100% !important;
+    /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    margin: 0 !important;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+    display: block !important;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+    font-size: 2em !important;
+    margin: 0.67em 0 !important;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+    box-sizing: content-box !important;
+    /* 1 */
+    height: 0 !important;
+    /* 1 */
+    overflow: visible !important;
+    /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+    font-family: monospace, monospace !important;
+    /* 1 */
+    font-size: 1em !important;
+    /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+    background-color: transparent !important;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+    border-bottom: none !important;
+    /* 1 */
+    text-decoration: underline !important;
+    /* 2 */
+    text-decoration: underline dotted !important;
+    /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+    font-weight: bolder !important;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace !important;
+    /* 1 */
+    font-size: 1em !important;
+    /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+    font-size: 80% !important;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75% !important;
+    line-height: 0 !important;
+    position: relative !important;
+    vertical-align: baseline !important;
+}
+
+sub {
+    bottom: -0.25em !important;
+}
+
+sup {
+    top: -0.5em !important;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+    border-style: none !important;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit !important;
+    /* 1 */
+    font-size: 100% !important;
+    /* 1 */
+    line-height: 1.15 !important;
+    /* 1 */
+    margin: 0 !important;
+    /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+    /* 1 */
+    overflow: visible !important;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+    /* 1 */
+    text-transform: none !important;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button !important;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none !important;
+    padding: 0 !important;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText !important;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em !important;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+    box-sizing: border-box !important;
+    /* 1 */
+    color: inherit !important;
+    /* 2 */
+    display: table !important;
+    /* 1 */
+    max-width: 100% !important;
+    /* 1 */
+    padding: 0 !important;
+    /* 3 */
+    white-space: normal !important;
+    /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+    vertical-align: baseline !important;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+    overflow: auto !important;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box !important;
+    /* 1 */
+    padding: 0 !important;
+    /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto !important;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+    -webkit-appearance: textfield !important;
+    /* 1 */
+    outline-offset: -2px !important;
+    /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none !important;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button !important;
+    /* 1 */
+    font: inherit !important;
+    /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+    display: block !important;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+    display: list-item !important;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+    display: none !important;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+    display: none !important;
+}
+
+
+
+/*------------------------------------*\
+  # GLOBAL-COLORS
+\*------------------------------------*/
+:root {
+
+	/**
+	* Green colors
+	*/
+
+	--color-green-1: rgb(2, 166, 118) !important;
+	--color-green-2: rgb(0, 140, 114) !important;
+	--color-green-3: rgb(0, 115, 105) !important;
+	--color-green-4: rgb(0, 90, 91) !important;
+	--color-green-5: rgb(0, 56, 64) !important;
+
+
+	/**
+	* Black and white colors
+	*/
+	
+	--color-black-5: rgb(0, 0, 0) !important;
+	--color-white-1: rgb(255, 255, 255) !important;
+
+
+	/**
+	* Gray colors
+	*/
+	
+	--color-gray-6: rgb(41, 41, 41) !important;
+	--color-gray-5: rgb(63, 63, 63) !important;
+	--color-gray-4: rgb(87, 87, 87) !important;
+	--color-gray-3: rgb(115, 115, 115) !important;
+	--color-gray-2: rgb(150, 150, 150) !important;
+	--color-gray-1: rgb(235, 235, 235) !important;
+
+}
+
+
+
+
+/**************************************\
+  # DOCS
+\**************************************/
+
+.doc-example {
+    background-color: #f8f8f8;
+}
+
+
+
+
+/**************************************\
+  # GRID
+\**************************************/
+
+/*------------------------------------*\
+    # BASE
+    \*------------------------------------*/
+
+/**
+    * Container and row
+    */
+
+.container {
+    padding: 2rem !important;
+}
+
+.row,
+.row-fullwith {
+    flex-wrap: wrap !important;
+    flex: 0 1 auto !important;
+    display: flex !important;
+}
+
+.row {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 1400px !important;
+}
+
+
+/**
+    * Wrap
+    */
+
+.no-wrap {
+    flex-wrap: nowrap !important;
+}
+
+
+
+
+/*------------------------------------*\
+    # COLUMNS
+    \*------------------------------------*/
+
+[class*="col-"],
+[class*="col-sm"],
+[class*="col-md"],
+[class*="col-lg"],
+[class*="col-xl"] {
+    padding: .5rem !important;
+    flex: 0 0 auto !important;
+}
+
+
+/**
+    * Default
+    */
+
+.col-1 {
+    flex-basis: 8.33333333% !important;
+    max-width: 8.33333333% !important;
+}
+
+.col-2 {
+    flex-basis: 16.66666667% !important;
+    max-width: 16.66666667% !important;
+}
+
+.col-3 {
+    flex-basis: 25% !important;
+    max-width: 25% !important;
+}
+
+.col-4 {
+    flex-basis: 33.33333333% !important;
+    max-width: 33.33333333% !important;
+}
+
+.col-5 {
+    flex-basis: 41.66666667% !important;
+    max-width: 41.66666667% !important;
+}
+
+.col-6 {
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+}
+
+.col-7 {
+    flex-basis: 58.33333333% !important;
+    max-width: 58.33333333% !important;
+}
+
+.col-8 {
+    flex-basis: 66.66666667% !important;
+    max-width: 66.66666667% !important;
+}
+
+.col-9 {
+    flex-basis: 75% !important;
+    max-width: 75% !important;
+}
+
+.col-10 {
+    flex-basis: 83.33333333% !important;
+    max-width: 83.33333333% !important;
+}
+
+.col-11 {
+    flex-basis: 91.66666667% !important;
+    max-width: 91.66666667% !important;
+}
+
+.col-12 {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+}
+
+
+
+
+/*------------------------------------*\
+    # FLEXBOX
+    \*------------------------------------*/
+
+.flex {
+    display: flex !important;
+}
+
+
+
+
+/*------------------------------------*\
+    # FLEXBOX ALIGNMENT
+    \*------------------------------------*/
+
+.horizontal-left {
+    justify-content: flex-start !important;
+}
+
+.horizontal-center {
+    justify-content: center !important;
+}
+
+.horizontal-right {
+    justify-content: flex-end !important;
+}
+
+.vertical-top {
+    align-items: flex-start !important;
+}
+
+.vertical-center {
+    align-items: center !important;
+}
+
+.vertical-bottom {
+    align-items: flex-end !important;
+}
+
+
+
+
+/*------------------------------------*\
+    # FLEXBOX DISTRIBUTION
+    \*------------------------------------*/
+
+.horizontal-around {
+    justify-content: space-around !important;
+}
+
+.horizontal-between {
+    justify-content: space-between !important;
+}
+
+.horizontal-evenly {
+    justify-content: space-evenly !important;
+}
+
+
+
+
+/**************************************\
+# GRID - MEDIA QUERIES
+\**************************************/
+
+/**
+* Small devices (landscape phones, 768px and down)
+*/
+
+@media (max-width: 768px) {
+
+    /*------------------------------------*\
+    # BASE
+    \*------------------------------------*/
+
+    /**
+    * Container and row
+    */
+
+    .container {
+        padding: 1rem !important;
+    }
+
+
+
+
+    /*------------------------------------*\
+    # COLUMNS
+    \*------------------------------------*/
+
+    /**
+    * Small
+    */
+
+    .col-sm-1 {
+        flex-basis: 8.33333333% !important;
+        max-width: 8.33333333% !important;
+    }
+
+    .col-sm-2 {
+        flex-basis: 16.66666667% !important;
+        max-width: 16.66666667% !important;
+    }
+
+    .col-sm-3 {
+        flex-basis: 25% !important;
+        max-width: 25% !important;
+    }
+
+    .col-sm-4 {
+        flex-basis: 33.33333333% !important;
+        max-width: 33.33333333% !important;
+    }
+
+    .col-sm-5 {
+        flex-basis: 41.66666667% !important;
+        max-width: 41.66666667% !important;
+    }
+
+    .col-sm-6 {
+        flex-basis: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .col-sm-7 {
+        flex-basis: 58.33333333% !important;
+        max-width: 58.33333333% !important;
+    }
+
+    .col-sm-8 {
+        flex-basis: 66.66666667% !important;
+        max-width: 66.66666667% !important;
+    }
+
+    .col-sm-9 {
+        flex-basis: 75% !important;
+        max-width: 75% !important;
+    }
+
+    .col-sm-10 {
+        flex-basis: 83.33333333% !important;
+        max-width: 83.33333333% !important;
+    }
+
+    .col-sm-11 {
+        flex-basis: 91.66666667% !important;
+        max-width: 91.66666667% !important;
+    }
+
+    .col-sm-12 {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+
+
+
+    /*------------------------------------*\
+    # OFFSET
+    \*------------------------------------*/
+
+    /**
+    * Small
+    */
+
+    .col-sm-offset-1 {
+        margin-left: 8.33333333% !important;
+    }
+
+    .col-sm-offset-2 {
+        margin-left: 16.66666667% !important;
+    }
+
+    .col-sm-offset-3 {
+        margin-left: 25% !important;
+    }
+
+    .col-sm-offset-4 {
+        margin-left: 33.33333333% !important;
+    }
+
+    .col-sm-offset-5 {
+        margin-left: 41.66666667% !important;
+    }
+
+    .col-sm-offset-6 {
+        margin-left: 50% !important;
+    }
+
+    .col-sm-offset-7 {
+        margin-left: 58.33333333% !important;
+    }
+
+    .col-sm-offset-8 {
+        margin-left: 66.66666667% !important;
+    }
+
+    .col-sm-offset-9 {
+        margin-left: 75% !important;
+    }
+
+    .col-sm-offset-10 {
+        margin-left: 83.33333333% !important;
+    }
+
+    .col-sm-offset-11 {
+        margin-left: 91.66666667% !important;
+    }
+
+}
+
+
+/**
+* Medium devices (tablets, 768px and up)
+*/
+
+@media (min-width: 768px) {
+
+    /*------------------------------------*\
+    # COLUMNS
+    \*------------------------------------*/
+
+    /**
+    * Medium
+    */
+
+    .col-md-1 {
+        flex-basis: 8.33333333% !important;
+        max-width: 8.33333333% !important;
+    }
+
+    .col-md-2 {
+        flex-basis: 16.66666667% !important;
+        max-width: 16.66666667% !important;
+    }
+
+    .col-md-3 {
+        flex-basis: 25% !important;
+        max-width: 25% !important;
+    }
+
+    .col-md-4 {
+        flex-basis: 33.33333333% !important;
+        max-width: 33.33333333% !important;
+    }
+
+    .col-md-5 {
+        flex-basis: 41.66666667% !important;
+        max-width: 41.66666667% !important;
+    }
+
+    .col-md-6 {
+        flex-basis: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .col-md-7 {
+        flex-basis: 58.33333333% !important;
+        max-width: 58.33333333% !important;
+    }
+
+    .col-md-8 {
+        flex-basis: 66.66666667% !important;
+        max-width: 66.66666667% !important;
+    }
+
+    .col-md-9 {
+        flex-basis: 75% !important;
+        max-width: 75% !important;
+    }
+
+    .col-md-10 {
+        flex-basis: 83.33333333% !important;
+        max-width: 83.33333333% !important;
+    }
+
+    .col-md-11 {
+        flex-basis: 91.66666667% !important;
+        max-width: 91.66666667% !important;
+    }
+
+    .col-md-12 {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+
+
+
+    /*------------------------------------*\
+    # OFFSET
+    \*------------------------------------*/
+
+    /**
+    * Medium
+    */
+
+    .col-md-offset-1 {
+        margin-left: 8.33333333% !important;
+    }
+
+    .col-md-offset-2 {
+        margin-left: 16.66666667% !important;
+    }
+
+    .col-md-offset-3 {
+        margin-left: 25% !important;
+    }
+
+    .col-md-offset-4 {
+        margin-left: 33.33333333% !important;
+    }
+
+    .col-md-offset-5 {
+        margin-left: 41.66666667% !important;
+    }
+
+    .col-md-offset-6 {
+        margin-left: 50% !important;
+    }
+
+    .col-md-offset-7 {
+        margin-left: 58.33333333% !important;
+    }
+
+    .col-md-offset-8 {
+        margin-left: 66.66666667% !important;
+    }
+
+    .col-md-offset-9 {
+        margin-left: 75% !important;
+    }
+
+    .col-md-offset-10 {
+        margin-left: 83.33333333% !important;
+    }
+
+    .col-md-offset-11 {
+        margin-left: 91.66666667% !important;
+    }
+
+}
+
+
+/**
+* Large devices (desktops, 992px and up)
+*/
+
+@media (min-width: 992px) {
+
+    /*------------------------------------*\
+    # COLUMNS
+    \*------------------------------------*/
+
+    /**
+    * Large
+    */
+
+    .col-lg-1 {
+        flex-basis: 8.33333333% !important;
+        max-width: 8.33333333% !important;
+    }
+
+    .col-lg-2 {
+        flex-basis: 16.66666667% !important;
+        max-width: 16.66666667% !important;
+    }
+
+    .col-lg-3 {
+        flex-basis: 25% !important;
+        max-width: 25% !important;
+    }
+
+    .col-lg-4 {
+        flex-basis: 33.33333333% !important;
+        max-width: 33.33333333% !important;
+    }
+
+    .col-lg-5 {
+        flex-basis: 41.66666667% !important;
+        max-width: 41.66666667% !important;
+    }
+
+    .col-lg-6 {
+        flex-basis: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .col-lg-7 {
+        flex-basis: 58.33333333% !important;
+        max-width: 58.33333333% !important;
+    }
+
+    .col-lg-8 {
+        flex-basis: 66.66666667% !important;
+        max-width: 66.66666667% !important;
+    }
+
+    .col-lg-9 {
+        flex-basis: 75% !important;
+        max-width: 75% !important;
+    }
+
+    .col-lg-10 {
+        flex-basis: 83.33333333% !important;
+        max-width: 83.33333333% !important;
+    }
+
+    .col-lg-11 {
+        flex-basis: 91.66666667% !important;
+        max-width: 91.66666667% !important;
+    }
+
+    .col-lg-12 {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /*------------------------------------*\
+    # OFFSET
+    \*------------------------------------*/
+
+    /**
+    * Large
+    */
+
+    .col-lg-offset-1 {
+        margin-left: 8.33333333% !important;
+    }
+
+    .col-lg-offset-2 {
+        margin-left: 16.66666667% !important;
+    }
+
+    .col-lg-offset-3 {
+        margin-left: 25% !important;
+    }
+
+    .col-lg-offset-4 {
+        margin-left: 33.33333333% !important;
+    }
+
+    .col-lg-offset-5 {
+        margin-left: 41.66666667% !important;
+    }
+
+    .col-lg-offset-6 {
+        margin-left: 50% !important;
+    }
+
+    .col-lg-offset-7 {
+        margin-left: 58.33333333% !important;
+    }
+
+    .col-lg-offset-8 {
+        margin-left: 66.66666667% !important;
+    }
+
+    .col-lg-offset-9 {
+        margin-left: 75% !important;
+    }
+
+    .col-lg-offset-10 {
+        margin-left: 83.33333333% !important;
+    }
+
+    .col-lg-offset-11 {
+        margin-left: 91.66666667% !important;
+    }
+
+}
+
+
+/**
+* Extra large devices (large desktops, 1200px and up)
+*/
+
+@media (min-width: 1200px) {
+
+    /*------------------------------------*\
+    # COLUMNS
+    \*------------------------------------*/
+
+    /**
+    * Extra large
+    */
+
+    .col-xl-1 {
+        flex-basis: 8.33333333% !important;
+        max-width: 8.33333333% !important;
+    }
+
+    .col-xl-2 {
+        flex-basis: 16.66666667% !important;
+        max-width: 16.66666667% !important;
+    }
+
+    .col-xl-3 {
+        flex-basis: 25% !important;
+        max-width: 25% !important;
+    }
+
+    .col-xl-4 {
+        flex-basis: 33.33333333% !important;
+        max-width: 33.33333333% !important;
+    }
+
+    .col-xl-5 {
+        flex-basis: 41.66666667% !important;
+        max-width: 41.66666667% !important;
+    }
+
+    .col-xl-6 {
+        flex-basis: 50% !important;
+        max-width: 50% !important;
+    }
+
+    .col-xl-7 {
+        flex-basis: 58.33333333% !important;
+        max-width: 58.33333333% !important;
+    }
+
+    .col-xl-8 {
+        flex-basis: 66.66666667% !important;
+        max-width: 66.66666667% !important;
+    }
+
+    .col-xl-9 {
+        flex-basis: 75% !important;
+        max-width: 75% !important;
+    }
+
+    .col-xl-10 {
+        flex-basis: 83.33333333% !important;
+        max-width: 83.33333333% !important;
+    }
+
+    .col-xl-11 {
+        flex-basis: 91.66666667% !important;
+        max-width: 91.66666667% !important;
+    }
+
+    .col-xl-12 {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+
+
+
+    /*------------------------------------*\
+    # OFFSET
+    \*------------------------------------*/
+
+    /**
+    * Extra large
+    */
+
+    .col-xl-offset-1 {
+        margin-left: 8.33333333% !important;
+    }
+
+    .col-xl-offset-2 {
+        margin-left: 16.66666667% !important;
+    }
+
+    .col-xl-offset-3 {
+        margin-left: 25% !important;
+    }
+
+    .col-xl-offset-4 {
+        margin-left: 33.33333333% !important;
+    }
+
+    .col-xl-offset-5 {
+        margin-left: 41.66666667% !important;
+    }
+
+    .col-xl-offset-6 {
+        margin-left: 50% !important;
+    }
+
+    .col-xl-offset-7 {
+        margin-left: 58.33333333% !important;
+    }
+
+    .col-xl-offset-8 {
+        margin-left: 66.66666667% !important;
+    }
+
+    .col-xl-offset-9 {
+        margin-left: 75% !important;
+    }
+
+    .col-xl-offset-10 {
+        margin-left: 83.33333333% !important;
+    }
+
+    .col-xl-offset-11 {
+        margin-left: 91.66666667% !important;
+    }
+
+}
+
+
+
+
+/*------------------------------------*\
+  # CARD
+\*------------------------------------*/
+
+.hp-card {
+    border: 0.5px solid var(--color-gray-1) !important;
+    background-color: var(--color-white-1) !important;
+    transition: all 0.3s ease !important;
+    border-radius: 5px !important;
+    padding: 1.5rem !important;
+}
+
+.hp-card--same-height {
+    height: 100% !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # PROGRESS BAR
+\*------------------------------------*/
+
+.hp-progress-bar,
+.hp-progress {
+    height: 0.5rem !important;
+}
+
+.hp-progress-bar {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1) !important;
+    background-color: var(--color-gray-1) !important;
+    border-radius: 0.5rem !important;
+    overflow: hidden !important;
+}
+
+.hp-progress {
+    background-color: var(--color-green-3) !important;
+}
+
+.hp-progress[data-value="25"] {
+    width: 25% !important;
+}
+
+.hp-progress[data-value="50"] {
+    width: 55% !important;
+}
+
+.hp-progress[data-value="75"] {
+    width: 75% !important;
+}
+
+.hp-progress[data-value="100"] {
+    width: 100% !important;
+}
+
+
+
+/*------------------------------------*\
+  # BUTTONS
+\*------------------------------------*/
+
+.hp-button {
+    transition: all 0.3s ease !important;
+    border: solid 1px var(--color-gray-2) !important;
+    background-color: transparent !important;
+    color: var(--color-gray-2) !important;
+    display: inline-block !important;
+    padding: 0.7rem 1rem !important;
+    font-size: .875rem !important;
+    cursor: pointer !important;
+    margin: 1rem 0 !important;
+}
+
+.hp-button--rounded {
+    border-radius: 3rem !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # BACKGROUND-COLORS
+\*------------------------------------*/
+
+/**
+* Green colors
+*/
+
+.hp-background-color-green-1 {
+    background-color: var(--color-green-1) !important;
+}
+
+.hp-background-color-green-2 {
+    background-color: var(--color-green-2) !important;
+}
+
+.hp-background-color-green-3 {
+    background-color: var(--color-green-3) !important;
+}
+
+.hp-background-color-green-4 {
+    background-color: var(--color-green-4) !important;
+}
+
+.hp-background-color-green-5 {
+    background-color: var(--color-green-5) !important;
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-background-color-black-5 {
+    background-color: var(--color-black-5) !important;
+}
+
+.hp-background-color-white-1 {
+    background-color: var(--color-white-1) !important;
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-background-color-gray-1 {
+    background-color: var(--color-gray-1) !important;
+}
+
+.hp-background-color-gray-2 {
+    background-color: var(--color-gray-2) !important;
+}
+
+.hp-background-color-gray-3 {
+    background-color: var(--color-gray-3) !important;
+}
+
+.hp-background-color-gray-4 {
+    background-color: var(--color-gray-4) !important;
+}
+
+.hp-background-color-gray-5 {
+    background-color: var(--color-gray-5) !important;
+}
+
+.hp-background-color-gray-6 {
+    background-color: var(--color-gray-6) !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT-COLORS
+\*------------------------------------*/
+
+/**
+* Green colors
+*/
+
+.hp-text-color-green-1 {
+    color: var(--color-green-1) !important;
+}
+
+.hp-text-color-green-2 {
+    color: var(--color-green-2) !important;
+}
+
+.hp-text-color-green-3 {
+    color: var(--color-green-3) !important;
+}
+
+.hp-text-color-green-4 {
+    color: var(--color-green-4) !important;
+}
+
+.hp-text-color-green-5 {
+    color: var(--color-green-5) !important;
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-text-color-black-5 {
+    color: var(--color-black-5) !important;
+}
+
+.hp-text-color-white-1 {
+    color: var(--color-white-1) !important;
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-text-color-gray-1 {
+    color: var(--color-gray-1) !important;
+}
+
+.hp-text-color-gray-2 {
+    color: var(--color-gray-2) !important;
+}
+
+.hp-text-color-gray-3 {
+    color: var(--color-gray-3) !important;
+}
+
+.hp-text-color-gray-4 {
+    color: var(--color-gray-4) !important;
+}
+
+.hp-text-color-gray-5 {
+    color: var(--color-gray-5) !important;
+}
+
+.hp-text-color-gray-6 {
+    color: var(--color-gray-6) !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # BORDERS
+\*------------------------------------*/
+
+/**
+* Remove border
+*/
+
+.hp-no-border {
+    border: none !important;
+}
+
+/**
+* Green colors
+*/
+
+.hp-border-color-green-1 {
+    border-color: var(--color-green-1) !important;
+}
+
+.hp-border-color-green-2 {
+    border-color: var(--color-green-2) !important;
+}
+
+.hp-border-color-green-3 {
+    border-color: var(--color-green-3) !important;
+}
+
+.hp-border-color-green-4 {
+    border-color: var(--color-green-4) !important;
+}
+
+.hp-border-color-green-5 {
+    border-color: var(--color-green-5) !important;
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-border-color-black-5 {
+    border-color: var(--color-black-5) !important;
+}
+
+.hp-border-color-white-1 {
+    border-color: var(--color-white-1) !important;
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-border-color-gray-1 {
+    border-color: var(--color-gray-1) !important;
+}
+
+.hp-border-color-gray-2 {
+    border-color: var(--color-gray-2) !important;
+}
+
+.hp-border-color-gray-3 {
+    border-color: var(--color-gray-3) !important;
+}
+
+.hp-border-color-gray-4 {
+    border-color: var(--color-gray-4) !important;
+}
+
+.hp-border-color-gray-5 {
+    border-color: var(--color-gray-5) !important;
+}
+
+.hp-border-color-gray-6 {
+    border-color: var(--color-gray-6) !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # HEADINGS
+\*------------------------------------*/
+
+/**
+* Removing margin top in headings
+*/
+
+.hp-h1,
+.hp-h2,
+.hp-h3,
+.hp-h4 {
+    margin-top: .875rem !important;
+    /* 14px */
+}
+
+/**
+* Normal size
+*/
+
+.hp-h1 {
+    font-size: 2.5rem !important;
+}
+
+.hp-h2 {
+    font-size: 1.875rem !important;
+}
+
+.hp-h3 {
+    font-size: 1.5625rem !important;
+}
+
+.hp-h4 {
+    font-size: 1.25rem !important;
+}
+
+.hp-paragraph {
+    font-size: 1rem !important;
+}
+
+/**
+* Oversized
+*/
+
+.hp-small {
+    font-size: .875rem !important;
+}
+
+.hp-medium {
+    font-size: 3.125rem !important;
+}
+
+.hp-large {
+    font-size: 3.75rem !important;
+}
+
+
+/**
+* 3x multiplier
+*
+* The special class 'hp-fontsize-x3'
+* will multiply whatever class's size you are using by 3 or 300%.
+*
+* The class cannot be applied directly to the same element 
+* you are sizing (because only 1 font size can apply per element).
+*
+* It has to be applied to a child /nested element.
+*/
+
+.hp-fontsize-x3 {
+    font-size: 3em !important;
+}
+
+
+/**
+* Fluid headings
+*/
+
+.hp-fluid-h1 {
+    font-size: 7vmin !important;
+}
+
+
+/**
+* Adding a different style to headings
+*/
+
+.hp-heading-stylized,
+.hp-heading-stylized--center {
+    font-family: 'Roboto', arial, sans-serif !important;
+    font-weight: 100 !important;
+}
+
+.hp-heading-stylized--center {
+    flex-direction: column !important;
+    align-items: center !important;
+    display: flex !important;
+}
+
+.hp-heading-stylized::after,
+.hp-heading-stylized--center::after {
+    background-color: var(--color-green-3) !important;
+    margin-top: 0.3rem !important;
+    display: block !important;
+    height: .3rem !important;
+    content: "" !important;
+    width: 4rem !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT WEIGHTS
+\*------------------------------------*/
+
+/**
+* Open Sans
+*
+* light 300
+* light 300 Italic
+* regular 400
+* regular 400 Italic
+* semi-bold 600
+* semi-bold 600 Italic
+* bold 700
+* bold 700 Italic
+* extra-bold 800
+* extra-bold 800 Italic
+*/
+
+/**
+* Roboto
+*
+* thin 100
+* thin 100 Italic
+* light 300
+* light 300 Italic
+* regular 400
+* regular 400 Italic
+* medium 500
+* medium 500 Italic
+* bold 700
+* bold 700 Italic
+* black 900
+* black 900 Italic
+*/
+
+.hp-bold {
+    font-weight: 700 !important;
+}
+
+.hp-light {
+    font-weight: 300 !important;
+}
+
+.hp-thin {
+    font-weight: 100 !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT TRANSFORM
+\*------------------------------------*/
+
+.hp-text-uppercase {
+    text-transform: uppercase !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT ALIGNMENT
+\*------------------------------------*/
+
+.hp-text-center {
+    text-align: center !important;
+}
+
+.hp-text-right {
+    text-align: right !important;
+}
+
+.hp-text-left {
+    text-align: left !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # IMAGE
+\*------------------------------------*/
+
+/**
+* Resize
+*/
+
+.hp-downsize {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+.hp-resize {
+    height: auto !important;
+    width: 100% !important;
+}
+
+
+/**
+* Style
+*/
+
+.hp-circule {
+    border-radius: 50% !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # MARGINS AND PADDINGS
+\*------------------------------------*/
+
+.hp-nospacing {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+/**
+* Padding-top
+*/
+
+.hp-padding-top-0 {
+    padding-top: 0 !important;
+}
+
+.hp-padding-top-1 {
+    padding-top: .625rem !important;
+    /* 10px */
+}
+
+.hp-padding-top-2 {
+    padding-top: 1.25rem !important;
+    /* 20px */
+}
+
+.hp-padding-top-3 {
+    padding-top: 1.875rem !important;
+    /* 30px */
+}
+
+.hp-padding-top-4 {
+    padding-top: 2.5rem !important;
+    /* 40px */
+}
+
+.hp-padding-top-5 {
+    padding-top: 3.125rem !important;
+    /* 50px */
+}
+
+
+/**
+* Padding-top responsive
+*/
+
+.hp-padding-top-r1 {
+    padding-top: 2vw !important;
+}
+
+.hp-padding-top-r2 {
+    padding-top: 5vw !important;
+}
+
+.hp-padding-top-r3 {
+    padding-top: 10vw !important;
+}
+
+
+/**
+* Padding-bottom
+*/
+
+.hp-padding-bottom-0 {
+    padding-bottom: 0 !important;
+}
+
+.hp-padding-bottom-1 {
+    padding-bottom: .625rem !important;
+    /* 10px */
+}
+
+.hp-padding-bottom-2 {
+    padding-bottom: 1.25rem !important;
+    /* 20px */
+}
+
+.hp-padding-bottom-3 {
+    padding-bottom: 1.875rem !important;
+    /* 30px */
+}
+
+.hp-padding-bottom-4 {
+    padding-bottom: 2.5rem !important;
+    /* 40px */
+}
+
+.hp-padding-bottom-5 {
+    padding-bottom: 3.125rem !important;
+    /* 50px */
+}
+
+
+/**
+* Padding-bottom responsive
+*/
+
+.hp-padding-bottom-r1 {
+    padding-bottom: 2vw !important;
+}
+
+.hp-padding-bottom-r2 {
+    padding-bottom: 5vw !important;
+}
+
+.hp-padding-bottom-r3 {
+    padding-bottom: 10vw !important;
+}
+
+
+/**
+* Margin-top
+*/
+
+.hp-margin-top-0 {
+    margin-top: 0 !important;
+}
+
+.hp-margin-top-1 {
+    margin-top: .625rem !important;
+    /* 10px */
+}
+
+.hp-margin-top-2 {
+    margin-top: 1.25rem !important;
+    /* 20px */
+}
+
+.hp-margin-top-3 {
+    margin-top: 1.875rem !important;
+    /* 30px */
+}
+
+.hp-margin-top-4 {
+    margin-top: 2.5rem !important;
+    /* 40px */
+}
+
+.hp-margin-top-5 {
+    margin-top: 3.125rem !important;
+    /* 50px */
+}
+
+
+/**
+* Margin-top responsive
+*/
+
+.hp-margin-top-r1 {
+    margin-top: 2vw !important;
+}
+
+.hp-margin-top-r2 {
+    margin-top: 5vw !important;
+}
+
+.hp-margin-top-r3 {
+    margin-top: 10vw !important;
+}
+
+
+/**
+* Margin-bottom
+*/
+
+.hp-margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.hp-margin-bottom-1 {
+    margin-bottom: .625rem !important;
+    /* 10px */
+}
+
+.hp-margin-bottom-2 {
+    margin-bottom: 1.25rem !important;
+    /* 20px */
+}
+
+.hp-margin-bottom-3 {
+    margin-bottom: 1.875rem !important;
+    /* 30px */
+}
+
+.hp-margin-bottom-4 {
+    margin-bottom: 2.5rem !important;
+    /* 40px */
+}
+
+.hp-margin-bottom-5 {
+    margin-bottom: 3.125rem !important;
+    /* 50px */
+}
+
+
+/**
+* Margin-bottom responsive
+*/
+
+.hp-margin-bottom-r1 {
+    margin-bottom: 2vw !important;
+}
+
+.hp-margin-bottom-r2 {
+    margin-bottom: 5vw !important;
+}
+
+.hp-margin-bottom-r3 {
+    margin-bottom: 10vw !important;
+}
+
+
+
+
+/*------------------------------------*\
+  # SHADOWS
+\*------------------------------------*/
+
+/**
+* Box shadow
+*/
+
+.hp-box-shadow-1 {
+    box-shadow: 0 1px 1px rgba(10, 10, 10, .2) !important;
+}
+
+.hp-box-shadow-2 {
+    box-shadow: 0 1px 5px rgba(10, 10, 10, .2) !important;
+}
+
+.hp-box-shadow-3 {
+    box-shadow: 0 1px 10px rgba(10, 10, 10, .2) !important;
+}
+
+/**
+* Box shadow - hover
+*/
+
+.hp-box-shadow-hover-1:hover {
+    box-shadow: 0 1px 3px rgba(10, 10, 10, .25) !important;
+}
+
+.hp-box-shadow-hover-2:hover {
+    box-shadow: 0 1px 6px rgba(10, 10, 10, .25) !important;
+}
+
+.hp-box-shadow-hover-3:hover {
+    box-shadow: 0 1px 10px rgba(10, 10, 10, .25) !important;
+}
