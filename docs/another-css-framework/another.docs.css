@@ -470,7 +470,9 @@ template {
 }
 
 
-
+.hp-sm-visible {
+    display: none;
+}
 
 /*------------------------------------*\
     # COLUMNS
@@ -482,7 +484,7 @@ template {
 [class*="col-lg"],
 [class*="col-xl"] {
     padding: .5rem !important;
-    flex: 0 0 auto !important;
+    /* flex: 0 0 auto !important; */
 }
 
 
@@ -636,7 +638,31 @@ template {
         padding: 1rem !important;
     }
 
+    /**************************************\
+    # GLOBAL
+    \**************************************/
 
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+    /**
+        * Hidding elements in mobile
+        */
+
+    .hp-sm-hidden {
+        display: none;
+    }
+
+
+    /**
+        * Showing elements in mobile
+        */
+
+    .hp-sm-visible {
+        flex-direction: column;
+        display: flex;
+    }
 
 
     /*------------------------------------*\
