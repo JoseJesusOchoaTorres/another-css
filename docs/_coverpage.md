@@ -8,6 +8,6 @@
 - Pure CSS no JS
 
 <a class="hp-text-color-green-4" href="https://github.com/JoseJesusOchoaTorres/another-css">Github</a>
-<a class="hp-text-color-green-4" href="https://josejesusochoatorres.github.io/another-css/1.0.0/another.min.css">Download</a>
+<a class="hp-text-color-green-4" href="https://josejesusochoatorres.github.io/another-css/1.0.0/another.min.css" target="_blank">Download</a>
 
 ![color](#ebebeb)
