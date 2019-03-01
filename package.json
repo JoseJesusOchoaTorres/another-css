@@ -1,0 +1,32 @@
+{
+  "name": "another-css-framework",
+  "version": "1.0.0",
+  "description": "Simple CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseJesusOchoaTorres/another-documentation.git"
+  },
+  "keywords": [
+    "CSS",
+    "GRID",
+    "Framework",
+    "Flex"
+  ],
+  "author": "Jose Jesus Ochoa Torres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseJesusOchoaTorres/another-documentation/issues"
+  },
+  "homepage": "https://github.com/JoseJesusOchoaTorres/another-documentation#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-csso": "^3.0.1",
+    "del": "^3.0.0"
+  }
+}

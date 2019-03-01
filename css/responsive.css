@@ -1,0 +1,117 @@
+/**
+* Small devices (landscape phones, 768px and down)
+*/
+
+@media (max-width: 768px) {
+    
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+    
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+        /**
+        * Container and row
+        */
+
+        .hp-container {
+            padding: 1rem;
+        }
+
+
+        /**
+        * Hidding elements in mobile
+        */
+
+        .hp-sm-hidden {
+            display: none;
+        }
+        
+        
+        /**
+        * Showing elements in mobile
+        */
+
+        .hp-sm-visible {
+            flex-direction: column;
+            display: flex;
+        }
+        
+}
+
+
+/**
+* Medium devices (tablets, 768px and up)
+*/
+
+@media (min-width: 768px) {
+
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+            /**
+            * Showing elements in mobile
+            */
+
+            .hp-sm-visible {
+                display: none;
+            }
+   
+}
+
+
+/**
+* Large devices (desktops, 992px and up)
+*/
+
+@media (min-width: 992px) {
+
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+            /**
+            * Showing elements in mobile
+            */
+
+            .hp-sm-visible {
+                display: none;
+            }
+
+}
+
+
+/**
+* Extra large devices (large desktops, 1200px and up)
+*/
+
+@media (min-width: 1200px) {
+
+    /**************************************\
+    # GLOBAL
+    \**************************************/
+
+        /*------------------------------------*\
+        # GRID
+        \*------------------------------------*/
+
+            /**
+            * Showing elements in mobile
+            */
+
+            .hp-sm-visible {
+                display: none;
+            }
+    
+}

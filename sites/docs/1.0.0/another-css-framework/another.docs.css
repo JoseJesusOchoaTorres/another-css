@@ -1645,6 +1645,10 @@ template {
     font-weight: 700 !important;
 }
 
+.hp-regular {
+    font-weight: normal;
+}
+
 .hp-light {
     font-weight: 300 !important;
 }

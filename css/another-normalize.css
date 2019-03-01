@@ -1,0 +1,39 @@
+/*------------------------------------*\
+  # SHORT NORMALIZE
+\*------------------------------------*/
+
+body {
+    font-family: sans-serif, arial;
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+/**
+* All elements
+*/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+/**
+* Links
+*/
+
+a {
+    text-decoration: none;
+}
+
+
+/**
+* List
+*/
+
+ol,
+ul {
+    list-style: none;
+    padding-left: 0;
+}

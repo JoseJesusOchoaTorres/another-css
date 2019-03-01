@@ -60,3 +60,19 @@ The class cannot be applied directly to the same element you are sizing (because
     <span class="hp-fontsize-x3">Fuild title</span>
 </p>
 ```
+
+
+
+
+## Text weights
+
+These classes can or not work, it depends of the font family that you are using in your project.
+
+> These classes were tested using **sans-serif** and **Source Sans Pro**
+
+| FONT WEIGHT     | EXAMPLE                           |
+|-----------------|-----------------------------------|
+| `hp-bold`       | <p class="hp-bold">Bold</p>       |
+| `hp-regular`    | <p class="hp-regular">Regular</p>  |
+| `hp-light`      | <p class="hp-light">Light</p>     |
+| `hp-thin`       | <p class="hp-thin">Thin</p>      |

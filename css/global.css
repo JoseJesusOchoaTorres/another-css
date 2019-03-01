@@ -1,0 +1,764 @@
+/*------------------------------------*\
+  # CARD
+\*------------------------------------*/
+
+.hp-card {
+    border: 0.5px solid var(--color-gray-1);
+    background-color: var(--color-white-1);
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+    .hp-card--same-height {
+        height: 100%;
+    }
+
+
+
+
+/*------------------------------------*\
+  # PROGRESS BAR
+\*------------------------------------*/
+
+.hp-progress-bar,
+.hp-progress {
+    height: 0.5rem;
+}
+
+.hp-progress-bar {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    background-color: var(--color-gray-1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+    .hp-progress {
+        background-color: var(--color-green-3);
+    }
+
+        .hp-progress[data-value="25"] {
+            width: 25%;
+        }
+        
+        .hp-progress[data-value="50"] {
+            width: 55%;
+        }
+        
+        .hp-progress[data-value="75"] {
+            width: 75%;
+        }
+        
+        .hp-progress[data-value="100"] {
+            width: 100%;
+        }
+
+
+
+/*------------------------------------*\
+  # BUTTONS
+\*------------------------------------*/
+
+.hp-button {
+    transition: all 0.3s ease;
+    border: solid 1px var(--color-gray-2);
+    background-color: transparent;
+    color: var(--color-gray-2);
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    font-size: .875rem;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+    .hp-button--rounded {
+        border-radius: 3rem;
+    }
+
+
+
+
+/*------------------------------------*\
+  # BACKGROUND-COLORS
+\*------------------------------------*/
+
+/**
+* Green colors
+*/
+    
+.hp-background-color-green-1 {
+    background-color: var(--color-green-1);
+}
+
+.hp-background-color-green-2 {
+    background-color: var(--color-green-2);
+}
+
+.hp-background-color-green-3 {
+    background-color: var(--color-green-3);
+}
+
+.hp-background-color-green-4 {
+    background-color: var(--color-green-4);
+}
+
+.hp-background-color-green-5 {
+    background-color: var(--color-green-5);
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-background-color-black-5 {
+    background-color: var(--color-black-5);
+}
+
+.hp-background-color-white-1 {
+    background-color: var(--color-white-1);
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-background-color-gray-1 {
+    background-color: var(--color-gray-1);
+}
+
+.hp-background-color-gray-2 {
+    background-color: var(--color-gray-2);
+}
+
+.hp-background-color-gray-3 {
+    background-color: var(--color-gray-3);
+}
+
+.hp-background-color-gray-4 {
+    background-color: var(--color-gray-4);
+}
+
+.hp-background-color-gray-5 {
+    background-color: var(--color-gray-5);
+}
+
+.hp-background-color-gray-6 {
+    background-color: var(--color-gray-6);
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT-COLORS
+\*------------------------------------*/
+
+/**
+* Green colors
+*/
+
+.hp-text-color-green-1 {
+    color: var(--color-green-1);
+}
+
+.hp-text-color-green-2 {
+    color: var(--color-green-2);
+}
+
+.hp-text-color-green-3 {
+    color: var(--color-green-3);
+}
+
+.hp-text-color-green-4 {
+    color: var(--color-green-4);
+}
+
+.hp-text-color-green-5 {
+    color: var(--color-green-5);
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-text-color-black-5 {
+    color: var(--color-black-5);
+}
+
+.hp-text-color-white-1 {
+    color: var(--color-white-1);
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-text-color-gray-1 {
+    color: var(--color-gray-1);
+}
+
+.hp-text-color-gray-2 {
+    color: var(--color-gray-2);
+}
+
+.hp-text-color-gray-3 {
+    color: var(--color-gray-3);
+}
+
+.hp-text-color-gray-4 {
+    color: var(--color-gray-4);
+}
+
+.hp-text-color-gray-5 {
+    color: var(--color-gray-5);
+}
+
+.hp-text-color-gray-6 {
+    color: var(--color-gray-6);
+}
+
+
+
+
+/*------------------------------------*\
+  # BORDERS
+\*------------------------------------*/
+
+/**
+* Remove border
+*/
+
+.hp-no-border {
+    border: none;
+}
+
+/**
+* Green colors
+*/
+
+.hp-border-color-green-1 {
+    border-color: var(--color-green-1);
+}
+
+.hp-border-color-green-2 {
+    border-color: var(--color-green-2);
+}
+
+.hp-border-color-green-3 {
+    border-color: var(--color-green-3);
+}
+
+.hp-border-color-green-4 {
+    border-color: var(--color-green-4);
+}
+
+.hp-border-color-green-5 {
+    border-color: var(--color-green-5);
+}
+
+
+/**
+* Black and white colors
+*/
+
+.hp-border-color-black-5 {
+    border-color: var(--color-black-5);
+}
+
+.hp-border-color-white-1 {
+    border-color: var(--color-white-1);
+}
+
+
+/**
+* Gray colors
+*/
+
+.hp-border-color-gray-1 {
+    border-color: var(--color-gray-1);
+}
+
+.hp-border-color-gray-2 {
+    border-color: var(--color-gray-2);
+}
+
+.hp-border-color-gray-3 {
+    border-color: var(--color-gray-3);
+}
+
+.hp-border-color-gray-4 {
+    border-color: var(--color-gray-4);
+}
+
+.hp-border-color-gray-5 {
+    border-color: var(--color-gray-5);
+}
+
+.hp-border-color-gray-6 {
+    border-color: var(--color-gray-6);
+}
+
+
+
+
+/*------------------------------------*\
+  # HEADINGS
+\*------------------------------------*/
+
+/**
+* Removing margin top in headings
+*/
+
+.hp-h1,
+.hp-h2,
+.hp-h3,
+.hp-h4 {
+    margin-top: .875rem; /* 14px */
+}
+
+/**
+* Normal size
+*/
+
+.hp-h1 {
+    font-size: 2.5rem;
+}
+
+.hp-h2 {
+    font-size: 1.875rem;
+}
+
+.hp-h3 {
+    font-size: 1.5625rem;
+}
+
+.hp-h4 {
+    font-size: 1.25rem;
+}
+
+.hp-paragraph {
+    font-size: 1rem;
+}
+
+/**
+* Oversized
+*/
+
+.hp-small {
+    font-size: .875rem;
+}
+
+.hp-medium {
+    font-size: 3.125rem;
+}
+
+.hp-large {
+    font-size: 3.75rem;
+}
+
+
+/**
+* 3x multiplier
+*
+* The special class 'hp-fontsize-x3'
+* will multiply whatever class's size you are using by 3 or 300%.
+*
+* The class cannot be applied directly to the same element 
+* you are sizing (because only 1 font size can apply per element).
+*
+* It has to be applied to a child /nested element.
+*/
+
+.hp-fontsize-x3 {
+    font-size: 3em;
+}
+
+
+/**
+* Fluid headings
+*/
+
+.hp-fluid-h1 {
+    font-size: 7vmin;
+}
+
+
+/**
+* Adding a different style to headings
+*/
+
+.hp-heading-stylized,
+.hp-heading-stylized--center {
+    font-family: 'Roboto', arial, sans-serif;
+    font-weight: 100;
+}
+
+    .hp-heading-stylized--center {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+.hp-heading-stylized::after,
+.hp-heading-stylized--center::after {
+    background-color: var(--color-green-3);
+    margin-top: 0.3rem;
+    display: block;
+    height: .3rem;
+    content: "";
+    width: 4rem;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT WEIGHTS
+\*------------------------------------*/
+
+/**
+* Open Sans
+*
+* light 300
+* light 300 Italic
+* regular 400
+* regular 400 Italic
+* semi-bold 600
+* semi-bold 600 Italic
+* bold 700
+* bold 700 Italic
+* extra-bold 800
+* extra-bold 800 Italic
+*/
+
+/**
+* Roboto
+*
+* thin 100
+* thin 100 Italic
+* light 300
+* light 300 Italic
+* regular 400
+* regular 400 Italic
+* medium 500
+* medium 500 Italic
+* bold 700
+* bold 700 Italic
+* black 900
+* black 900 Italic
+*/
+
+.hp-bold {
+    font-weight: 700;
+}
+
+.hp-regular {
+    font-weight: normal;
+}
+
+.hp-light {
+    font-weight: 300;
+}
+
+.hp-thin {
+    font-weight: 100;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT TRANSFORM
+\*------------------------------------*/
+
+.hp-text-uppercase {
+    text-transform: uppercase;
+}
+
+
+
+
+/*------------------------------------*\
+  # TEXT ALIGNMENT
+\*------------------------------------*/
+
+.hp-text-center {
+    text-align: center;
+}
+
+.hp-text-right {
+    text-align: right;
+}
+
+.hp-text-left {
+    text-align: left;
+}
+
+
+
+
+/*------------------------------------*\
+  # IMAGE
+\*------------------------------------*/
+
+/**
+* Resize
+*/
+
+.hp-downsize {
+    max-width: 100%;
+    height: auto;
+}
+
+.hp-resize {
+    height: auto;
+    width: 100%;
+}
+
+
+/**
+* Style
+*/
+
+.hp-circule {
+    border-radius: 50%;
+}
+
+
+
+
+/*------------------------------------*\
+  # MARGINS AND PADDINGS
+\*------------------------------------*/
+
+.hp-nospacing {
+    padding: 0;
+    margin: 0;
+}
+
+
+/**
+* Padding-top
+*/
+
+.hp-padding-top-0 {
+    padding-top: 0;
+}
+
+.hp-padding-top-1 {
+    padding-top: .625rem;  /* 10px */
+}
+
+.hp-padding-top-2 {
+    padding-top: 1.25rem;  /* 20px */
+}
+
+.hp-padding-top-3 {
+    padding-top: 1.875rem; /* 30px */
+}
+
+.hp-padding-top-4 {
+    padding-top: 2.5rem;   /* 40px */
+}
+
+.hp-padding-top-5 {
+    padding-top: 3.125rem; /* 50px */
+}
+
+
+/**
+* Padding-top responsive
+*/
+
+.hp-padding-top-r1 {
+    padding-top: 2vw;
+}
+
+.hp-padding-top-r2 {
+    padding-top: 5vw;
+}
+
+.hp-padding-top-r3 {
+    padding-top: 10vw;
+}
+
+
+/**
+* Padding-bottom
+*/
+
+.hp-padding-bottom-0 {
+    padding-bottom: 0;
+}
+
+.hp-padding-bottom-1 {
+    padding-bottom: .625rem;  /* 10px */
+}
+
+.hp-padding-bottom-2 {
+    padding-bottom: 1.25rem;  /* 20px */
+}
+
+.hp-padding-bottom-3 {
+    padding-bottom: 1.875rem; /* 30px */
+}
+
+.hp-padding-bottom-4 {
+    padding-bottom: 2.5rem;   /* 40px */
+}
+
+.hp-padding-bottom-5 {
+    padding-bottom: 3.125rem; /* 50px */
+}
+
+
+/**
+* Padding-bottom responsive
+*/
+
+.hp-padding-bottom-r1 {
+    padding-bottom: 2vw;
+}
+
+.hp-padding-bottom-r2 {
+    padding-bottom: 5vw;
+}
+
+.hp-padding-bottom-r3 {
+    padding-bottom: 10vw;
+}
+
+
+/**
+* Margin-top
+*/
+
+.hp-margin-top-0 {
+    margin-top: 0;
+}
+
+.hp-margin-top-1 {
+    margin-top: .625rem;  /* 10px */
+}
+
+.hp-margin-top-2 {
+    margin-top: 1.25rem;  /* 20px */
+}
+
+.hp-margin-top-3 {
+    margin-top: 1.875rem; /* 30px */
+}
+
+.hp-margin-top-4 {
+    margin-top: 2.5rem;   /* 40px */
+}
+
+.hp-margin-top-5 {
+    margin-top: 3.125rem; /* 50px */
+}
+
+
+/**
+* Margin-top responsive
+*/
+
+.hp-margin-top-r1 {
+    margin-top: 2vw;
+}
+
+.hp-margin-top-r2 {
+    margin-top: 5vw;
+}
+
+.hp-margin-top-r3 {
+    margin-top: 10vw;
+}
+
+
+/**
+* Margin-bottom
+*/
+
+.hp-margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.hp-margin-bottom-1 {
+    margin-bottom: .625rem;  /* 10px */
+}
+
+.hp-margin-bottom-2 {
+    margin-bottom: 1.25rem;  /* 20px */
+}
+
+.hp-margin-bottom-3 {
+    margin-bottom: 1.875rem; /* 30px */
+}
+
+.hp-margin-bottom-4 {
+    margin-bottom: 2.5rem;   /* 40px */
+}
+
+.hp-margin-bottom-5 {
+    margin-bottom: 3.125rem; /* 50px */
+}
+
+
+/**
+* Margin-bottom responsive
+*/
+
+.hp-margin-bottom-r1 {
+    margin-bottom: 2vw;
+}
+
+.hp-margin-bottom-r2 {
+    margin-bottom: 5vw;
+}
+
+.hp-margin-bottom-r3 {
+    margin-bottom: 10vw;
+}
+
+
+
+
+/*------------------------------------*\
+  # SHADOWS
+\*------------------------------------*/
+
+/**
+* Box shadow
+*/
+
+.hp-box-shadow-1 {
+    box-shadow: 0 1px 1px rgba(10, 10, 10, .2);
+}
+
+.hp-box-shadow-2 {
+    box-shadow: 0 1px 5px rgba(10, 10, 10, .2);
+}
+
+.hp-box-shadow-3 {
+    box-shadow: 0 1px 10px rgba(10, 10, 10, .2);
+}
+
+/**
+* Box shadow - hover
+*/
+
+.hp-box-shadow-hover-1:hover {
+    box-shadow: 0 1px 3px rgba(10, 10, 10, .25);
+}
+
+.hp-box-shadow-hover-2:hover {
+    box-shadow: 0 1px 6px rgba(10, 10, 10, .25);
+}
+
+.hp-box-shadow-hover-3:hover {
+    box-shadow: 0 1px 10px rgba(10, 10, 10, .25);
+}

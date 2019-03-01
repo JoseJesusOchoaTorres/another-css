@@ -1,0 +1,36 @@
+/*------------------------------------*\
+  # GLOBAL-COLORS
+\*------------------------------------*/
+:root {
+
+	/**
+	* Green colors
+	*/
+
+	--color-green-1: rgb(2, 166, 118);
+	--color-green-2: rgb(0, 140, 114);
+	--color-green-3: rgb(0, 115, 105);
+	--color-green-4: rgb(0, 90, 91);
+	--color-green-5: rgb(0, 56, 64);
+
+
+	/**
+	* Black and white colors
+	*/
+	
+	--color-black-5: rgb(0, 0, 0);
+	--color-white-1: rgb(255, 255, 255);
+
+
+	/**
+	* Gray colors
+	*/
+	
+	--color-gray-6: rgb(41, 41, 41);
+	--color-gray-5: rgb(63, 63, 63);
+	--color-gray-4: rgb(87, 87, 87);
+	--color-gray-3: rgb(115, 115, 115);
+	--color-gray-2: rgb(150, 150, 150);
+	--color-gray-1: rgb(235, 235, 235);
+
+}
