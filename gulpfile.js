@@ -11,7 +11,7 @@ var del = require('del');
 gulp.task('styles', function () {
     return gulp.src('./css/*.css')
         // Concat every css file
-        .pipe(concatCss('styles.css'))
+        .pipe(concatCss('another-1.0.0.min.css'))
         // Auto-prefix css styles for cross browser compatibility
         .pipe(autoprefixer({
             browsers: ['last 2 versions'],
